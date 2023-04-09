@@ -1,0 +1,40 @@
+.cover {
+    margin-top: 92px;
+    background-image: url(../../images/__background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 740px;
+    max-width: 1184px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        min-height: 640px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        min-height: 480px;
+        margin-left: 0px;
+        margin-top: 0;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        min-height: 200px;
+        margin-left: 0px;
+        background-size: cover;
+    }
+}
