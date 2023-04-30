@@ -11,8 +11,6 @@
 @media screen and (max-width: 1024px) {
     .place__content {
         width: 100%;
-        margin-left: 0;
-        min-height: 76px;
     }
 }
 
@@ -20,26 +18,20 @@
     .place__content {
         max-width: 720px;
         min-height: 46px;
-        margin-left: 0;
     }
 }
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 650px) {
     .place__content {
         flex-direction: column;
         min-height: 0;
         
     }
 }
-@media screen and (max-width: 642px) {
-    .place__content {
-        width: unset;
-    }
-}
+
 @media screen and (max-width: 320px) {
     .place__content {
-        flex-direction: column;
         min-height: 113px;
-        max-width: 288px;
+        max-width: 268px;
         margin-left: 16px;
         margin-right: 16px;
     }

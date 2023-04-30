@@ -9,21 +9,17 @@
 @media screen and (max-width: 1024px) {
     .header__links {
     margin-top: 18px;
-    margin-right: 48px;
-    margin-left: auto;
     }
 }
 @media screen and (max-width: 768px) {
     .header__links {
         margin-top: 43px;
-        margin-left: auto;
 }
     }
 
 @media screen and (max-width: 320px) {
     .header__links {
         margin-right: 0;
-        margin-left: auto;
         margin-top: 26px;
         max-width: 62px;
     }

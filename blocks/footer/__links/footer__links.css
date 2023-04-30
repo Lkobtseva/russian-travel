@@ -8,30 +8,10 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer__links {
-        max-width: 465px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer__links {
-        max-width: 465px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .footer__links {
         flex-direction: column;
         justify-content: normal;
-        row-gap: 0;
-        column-gap: 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    .footer__links {
-        justify-content: normal;
-        flex-direction: column;
         row-gap: 0;
         column-gap: 0;
     }

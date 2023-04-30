@@ -5,67 +5,50 @@
     margin-right: auto;
     margin-top: 64px;
     min-height: 615px;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        margin-bottom: 0px;
         max-width: 928px;
         margin-top: 56px;
-        max-height: 540px;
-    min-height: unset;
+        min-height: unset;
         width: 100%;
-        object-fit: contain;
     }
 }
 
 @media screen and (max-width: 900px) {
     .lead__image {
-    margin-bottom: 0px;
     margin-top: 56px;
     min-height: 400px;
-    width: 100%;
     height: 100%;
-    object-fit: contain;
     padding-bottom: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-        margin-bottom: 0px;
         max-width: 768px;
         margin-top: 56px;
         max-height: 440px;
-        /*width: 100%;*/
-        object-fit: contain;
     }
 }
 @media screen and (max-width: 675px) {
     .lead__image {
-        margin-bottom: 0px;
         max-width: 675px;
         margin-top: 56px;
-        max-height: 400px;
-    min-height: unset;
-        object-fit: contain;
+        min-height: unset;
     }
 }
 @media screen and (max-width: 450px) {
     .lead__image {
-
         margin-top: 0;
- 
     }
 }
 @media screen and (max-width: 320px) {
     .lead__image {
-        margin-bottom: 0px;
         max-width: 320px;
         margin-top: 40px;
-        max-height: 200px;
-    min-height: unset;
-        /*width: 100%;*/
-        object-fit: contain;
+        min-height: unset;
     }
 }

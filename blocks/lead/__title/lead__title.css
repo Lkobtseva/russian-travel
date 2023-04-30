@@ -1,6 +1,5 @@
 .lead__title {
     color: #FFFFFF;
-    font-family: 'Inter';
     font-size: 96px;
     font-weight: 900;
     line-height: 104%;
@@ -13,32 +12,9 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__title {
-        line-height: 104%;
-        font-size: 96px;
-        max-width: 720px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .lead__title {
-        line-height: 104%;
-        font-size: 96px;
-        max-width: 720px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media screen and (max-width: 775px) {
 .lead__title {
-    line-height: 104%;
     font-size: 85px;
-    max-width: 720px;
     margin-right: 24px;
     margin-left: 24px;
     }
@@ -64,8 +40,8 @@
         font-size: 40px;
         line-height: 110%;
         max-width: 288px;
-        margin-right: auto;
         margin-left: auto;
+        margin-right: auto;
     }
 }
 @media screen and (max-width: 326px) {

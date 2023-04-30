@@ -1,5 +1,4 @@
 .cover__title {
-    font-family: 'Inter';
     font-size: 72px;
     font-weight: 900;
     line-height: 106%;
@@ -19,30 +18,17 @@
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        max-width: 560px;
-        font-size: 72px;
-        line-height: 106%;
         padding-top: 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        max-width: 560px;
         padding-top: 115px;
-        font-size: 72px;
-        line-height: 106%;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .cover__title {
-        font-size: 45px;
-        line-height: 107%;
-        padding-top: 150px;
-    }
-}
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 430px) {
     .cover__title {
         font-size: 40px;
         line-height: 107%;
