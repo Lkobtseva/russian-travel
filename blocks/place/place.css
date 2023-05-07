@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: 984px;
     min-height: 584px;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,11 +16,11 @@
     .place {
         margin-bottom: 73px;
         max-width: 720px;
-        margin-left: 32px;
-        margin-right: 32px;
+        margin-left: 0;
+        margin-right: 0;
+        min-height: unset;
     }
     .place:last-of-type {
-        margin-bottom: 0;
         min-height: 480px;
     }
 }
@@ -28,20 +28,12 @@
 @media screen and (max-width: 740px) {
     .place {
         margin-bottom: 65px;
-        display: flex;
-        flex-direction: column;
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media screen and (max-width: 690px) {
-    .place {
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-}
 
 @media screen and (max-width: 667px) {
     .place {

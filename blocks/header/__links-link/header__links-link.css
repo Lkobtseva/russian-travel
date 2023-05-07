@@ -10,25 +10,8 @@
     transition: opacity 0, 2 linear;
     text-decoration: none;
 }
-
-.header__links-link:hover {
-    opacity: 0.8;
-    text-decoration: underline;
-}
-
-
-.header__links-link:first-child {
-    margin-right: 18px;
-}
-
 .header__links-link:nth-child(2) {
     margin-right: 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .header__links-link {
-        max-width: 30px;
-    }
 }
 
 @media screen and (max-width: 320px) {

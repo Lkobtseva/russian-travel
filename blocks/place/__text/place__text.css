@@ -14,7 +14,7 @@
 @media screen and (max-width: 768px) {
     .place__text {
         margin-left: 28px;
-        max-width: 280px;
+        max-width: 352px;
     }
 }
 
@@ -28,7 +28,7 @@
 @media screen and (max-width: 320px) {
     .place__text {
         margin-left: 16px;
-        max-width: 268px;
+        max-width: 288px;
         margin-right: 16px;
     }
 }

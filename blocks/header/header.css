@@ -23,6 +23,7 @@
         margin-left: 24px;
         margin-right: 24px;
         justify-content: normal;
+        margin-top: 0;
     }
 }
 
@@ -31,9 +32,7 @@
         max-width: 288px;
         margin-top: 16px;
         min-height: 42px;
-        margin-bottom: 48px;
         margin-left: 16px;
         margin-right: 16px;
-        justify-content: normal;
     }
 }

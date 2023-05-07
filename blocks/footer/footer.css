@@ -13,9 +13,6 @@
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
-        margin-left: 48px;
-        margin-top: 92px;
-        margin-right: 48px;
     }
 }
 
@@ -25,6 +22,7 @@
         margin-left: 24px;
         margin-top: 88px;
         margin-right: 24px;
+        margin-bottom: 0;
     }
 }
 
@@ -37,17 +35,5 @@
         flex-direction: column;
         justify-content: left;
         margin-right: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer {
-        max-width: 186px;
-        min-height: 310px;
-        margin-left: 16px;
-        margin-top: 64px;
-        flex-direction: column;
-        margin-right: 16px;
-        justify-content: left;
     }
 }

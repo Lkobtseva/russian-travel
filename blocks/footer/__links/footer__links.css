@@ -6,13 +6,16 @@
     max-width: 465px;
     text-decoration: none;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
 }
 
 @media screen and (max-width: 600px) {
     .footer__links {
         flex-direction: column;
-        justify-content: normal;
-        row-gap: 0;
-        column-gap: 0;
+        justify-content: flex-start;
+        row-gap: 32px;
     }
 }

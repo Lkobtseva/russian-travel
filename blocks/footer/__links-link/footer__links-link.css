@@ -14,13 +14,6 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer__links-link {
-        line-height: 112%;
-        font-size: 16px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .footer__links-link {
         line-height: 110%;
@@ -39,12 +32,7 @@
     .footer__links-link {
         line-height: 100%;
         font-size: 24px;
-        min-width: 186px;
-        margin-left: 16px;
-        margin-bottom: 32px;
-    }
-
-    .footer__links-link:last-child {
-        margin-bottom: 0px;
+        justify-content: left;
+    display: flex;
     }
 }

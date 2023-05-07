@@ -16,7 +16,6 @@
 @media screen and (max-width: 768px) {
     .place__item {
         max-width: 720px;
-        margin-left: 0;
     }
 }
 @media screen and (max-width: 667px) {
@@ -29,7 +28,6 @@
 @media screen and (max-width: 320px) {
     .place__item {
         max-width: 320px;
-        min-height: 897px;
         margin-top: 0;
     }
 }

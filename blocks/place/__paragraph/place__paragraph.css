@@ -6,8 +6,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .place__paragraph:first-child {
@@ -18,7 +18,6 @@
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
-        font-size: 18px;
     }
 }
 
@@ -26,11 +25,15 @@
     .place__paragraph {
         font-size: 16px;
         width: 100%;
-        max-width: 280px;
+        max-width: 352px;
     }
 
     .place__paragraph:first-child {
-        margin-bottom: 25px;
+        margin-bottom: 23px;
+    }
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
 
@@ -44,5 +47,12 @@
     .place__paragraph {
         margin-left: 0;
         margin-right: 0;
+        max-width: 288px;
+    }
+    .place__paragraph:first-of-type {
+        max-width: 280px;
+    }
+    .place__paragraph:nth-of-type(4){
+        max-width: 280px;
     }
 }

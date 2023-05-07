@@ -20,21 +20,19 @@
 @media screen and (max-width: 800px) {
     .place__title {
         line-height: 110%;
-        font-size: 46px;
-        min-width: 350px;
+        min-width: 330px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
-        max-width: 340px;
+        max-width: 320px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .place__title {
-        max-width: 320px;
         font-size: 40px;
     }
 }
