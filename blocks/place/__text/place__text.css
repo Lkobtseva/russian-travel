@@ -28,7 +28,7 @@
 @media screen and (max-width: 320px) {
     .place__text {
         margin-left: 16px;
-        max-width: 288px;
+        max-width: 265px;
         margin-right: 16px;
     }
 }
