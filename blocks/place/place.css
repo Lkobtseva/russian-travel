@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     max-width: 984px;
-    /*min-height: 584px;
-    margin-bottom: 80px;*/
     margin-left: auto;
     margin-right: auto;
 }

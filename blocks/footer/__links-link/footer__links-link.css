@@ -7,7 +7,7 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 18px;
-    transition: opacity 0, 2 linear;
+    transition: opacity 0.2s linear;
 }
 
 .footer__links-link:hover {
@@ -19,8 +19,11 @@
         line-height: 110%;
         font-size: 18px;
         min-width: 186px;
-        margin-left: 16px;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 32px;
+        display: flex;
+        justify-content: left;
     }
 
     .footer__links-link:last-child {
@@ -33,6 +36,6 @@
         line-height: 100%;
         font-size: 24px;
         justify-content: left;
-    display: flex;
+        display: flex;
     }
 }

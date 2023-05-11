@@ -7,11 +7,15 @@
     text-align: right;
     color: #FFFFFF;
     margin-right: 18px;
-    transition: opacity 0, 2 linear;
+    transition: opacity 0.2s linear;
     text-decoration: none;
 }
 .header__links-link:nth-child(2) {
     margin-right: 0;
+}
+.header__links-link:hover { 
+    opacity: 0.8; 
+    text-decoration: underline; 
 }
 
 @media screen and (max-width: 320px) {

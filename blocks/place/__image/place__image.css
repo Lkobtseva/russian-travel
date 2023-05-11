@@ -7,7 +7,7 @@
 @media screen and (max-width: 1024px) {
     .place__image {
         min-width: 440px;
-        min-height: 440px;
+        max-height: 440px;
     }
 }
 

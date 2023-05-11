@@ -7,7 +7,7 @@
     color: #FFFFFF;
     margin-bottom: 48px;
     text-decoration-line: underline;
-    transition: opacity 0, 2 linear;
+    transition: opacity 0.2s linear;
 }
 
 .place__website-link:hover {

@@ -12,6 +12,11 @@
     z-index: 1;
     background-size: cover;
 }
+.cover:before {
+    position: absolute;
+    display: block;
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 1024px) {
     .cover {
