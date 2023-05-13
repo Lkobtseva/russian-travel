@@ -13,7 +13,6 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 3;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,6 +24,8 @@
 @media screen and (max-width: 768px) {
     .cover__title {
         padding-top: 115px;
+        margin-left: 104px;
+    margin-right: 104px;
     }
 }
 
@@ -43,5 +44,7 @@
         font-size: 32px;
         line-height: 109%;
         padding-top: 33px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
