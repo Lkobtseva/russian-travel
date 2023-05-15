@@ -1,6 +1,5 @@
 .place__image {
     min-width: 460px;
-    min-height: 460px;
     margin-top: 0;
 }
 
@@ -14,7 +13,7 @@
 @media screen and (max-width: 800px) {
     .place__image {
         min-width: 350px;
-        min-height: 350px;
+        max-height: 350px;
     }
 }
 

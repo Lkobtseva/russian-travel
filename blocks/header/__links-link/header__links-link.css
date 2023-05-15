@@ -15,7 +15,6 @@
 }
 .header__links-link:hover { 
     opacity: 0.8;
-    text-decoration: underline; 
 }
 
 @media screen and (max-width: 320px) {

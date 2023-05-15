@@ -1,10 +1,6 @@
 .cover {
-  display: flex;
-  background-image: url(../../images/__background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  min-height: 740px;
+    display: flex;
+    min-height: 740px;
     max-width: 1184px;
     margin-left: auto;
     margin-right: auto;
@@ -18,12 +14,14 @@
     margin-left: -1px;
     padding-top: calc(740 / 1184 * 100%);
 }
+
 @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
         margin-left: 0px;
     }
+
     .cover::after {
         padding-top: calc(640 / 1024 * 100%);
     }
@@ -34,6 +32,7 @@
         max-width: 768px;
         min-height: 480px;
     }
+
     .cover::after {
         padding-top: calc(480 / 768 * 100%);
     }
@@ -45,6 +44,7 @@
         min-height: 200px;
         margin-top: 66px;
     }
+
     .cover::after {
         padding-top: calc(200 / 320 * 100%);
     }
