@@ -8,14 +8,16 @@
 @media screen and (max-width: 1024px) {
     .place__website {
         margin-left: 32px;
-    min-width: 200px;
+        min-width: 200px;
     }
 }
+
 @media screen and (max-width: 800px) {
     .place__website {
         margin-left: 32px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .place__website {
         margin-left: 40px;
